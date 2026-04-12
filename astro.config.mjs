@@ -7,13 +7,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Acme Tech Docs',
-      social: [
-        {
-          icon: 'github',
-          label: 'GitHub',
-          href: 'https://github.com/epam-acme-corp/tech-docs',
-        },
-      ],
+      social: {
+        github: 'https://github.com/epam-acme-corp/tech-docs',
+      },
       sidebar: [
         {
           label: 'Overview',
